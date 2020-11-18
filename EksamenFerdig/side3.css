@@ -8,6 +8,8 @@ body {
 .backPic {
     width: 100%;
     height: auto;
+    border: 1px solid #00072d;
+    border-radius: 20px;
 }
 
 
@@ -32,6 +34,7 @@ body {
     left: 400px;
     right: auto;
     top: 50%;
+    cursor: pointer;    
 }
 
 
@@ -84,13 +87,15 @@ body {
 /* knapp-styling og hover-effekt */
 
 .container button {
-    color: yellow;
-    background: black;
+    color: white;
+    background: #00072d;
     font-size: 20px;
     border-color: black;
+    border-radius: 20px;
     transition: 0.8s;
 }
 
 .container button:hover {
-    color: #fff;
+    opacity: 0.6;
+    
 }
