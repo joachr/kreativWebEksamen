@@ -65,6 +65,7 @@ HEADER M/DROPDOWN-MENY
 
 .dropdownContent li {
     list-style: none;
+    padding: 10px;
 }
 
 .dropdownLink {

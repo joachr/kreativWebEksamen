@@ -2,6 +2,11 @@ body {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /*css så bildet skal justere seg ift til container*/
 
@@ -26,7 +31,7 @@ body {
 }
 
 
-/* Knapp Posisjon */
+/* Knapp-posisjon */
 
 .container button {
     position: absolute;
@@ -96,6 +101,5 @@ body {
 }
 
 .container button:hover {
-    opacity: 0.6;
-    
+    opacity: 0.6; 
 }
